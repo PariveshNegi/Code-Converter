@@ -6,6 +6,7 @@
 
 📌 Project Overview
 Code Converter is a web-based tool designed to help users analyze and convert C and C++ code into Python. It walks the code through multiple compiler phases such as lexical analysis, syntax parsing, semantic checks, intermediate code generation, and basic optimization — all visualized in a user-friendly interface. It’s an educational utility, especially useful for beginners learning how compilers work or transitioning between programming languages.
+
 TRY ONLINE : <a href="https://pariveshnegi.github.io/Code-Converter/"> Code Converter</a>
 
 🧠 Features
