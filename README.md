@@ -1,4 +1,9 @@
-# Code Converter
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Code Converter&center=true&size=30">
+  </a>
+</h1>
+
 📌 Project Overview
 Code Converter is a web-based tool designed to help users analyze and convert C and C++ code into Python. It walks the code through multiple compiler phases such as lexical analysis, syntax parsing, semantic checks, intermediate code generation, and basic optimization — all visualized in a user-friendly interface. It’s an educational utility, especially useful for beginners learning how compilers work or transitioning between programming languages.
 
