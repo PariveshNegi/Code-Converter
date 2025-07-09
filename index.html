@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code Converter</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Code Converter</h1>
+    </header>
+    <div class="converter-container">
+      <!-- Input Section -->
+      <div class="input-section">
+        <div class="language-selector">
+          <select id="source-language">
+            <option value="c">C</option>
+            <option value="cpp">C++</option>
+            <option value="java">Java</option>
+          </select>
+        </div>
+        <textarea id="source-code" placeholder="Enter your code here..."></textarea>
+        <button id="convert-btn" class="btn">Convert</button>
+      </div>
+      <!-- Output Section -->
+      <div class="output-section">
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="lexical">Lexical</button>
+          <button class="tab-btn" data-tab="syntax">Syntax</button>
+          <button class="tab-btn" data-tab="semantic">Semantic</button>
+          <button class="tab-btn" data-tab="intermediate">Intermediate</button>
+          <button class="tab-btn" data-tab="optimization">Optimization</button>
+          <button class="tab-btn" data-tab="python">Python</button>
+        </div>
+        <!-- Tab Contents -->
+        <div id="lexical" class="tab-content active">
+          <div class="output-header">
+            <span>Lexical Analysis</span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <pre id="lexical-output">// Output will appear here</pre>
+        </div>
+        <div id="syntax" class="tab-content">
+          <div class="output-header">
+            <span>Syntax Analysis</span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <pre id="syntax-output">// Output will appear here</pre>
+        </div>
+        <div id="semantic" class="tab-content">
+          <div class="output-header">
+            <span>Semantic Analysis</span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <pre id="semantic-output">// Output will appear here</pre>
+        </div>
+        <div id="intermediate" class="tab-content">
+          <div class="output-header">
+            <span>Intermediate Code</span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <pre id="intermediate-output">// Output will appear here</pre>
+        </div>
+        <div id="optimization" class="tab-content">
+          <div class="output-header">
+            <span>Optimization</span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <pre id="optimization-output">// Output will appear here</pre>
+        </div>
+        <div id="python" class="tab-content">
+          <div class="output-header">
+            <span>Python Output</span>
+            <button id="copy-python" class="copy-btn">Copy</button>
+          </div>
+          <pre id="python-code">// Output will appear here</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="c.js"></script>
+  <script src="c++.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
